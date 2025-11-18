@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Create Vibe Project CLI tool\n\nA command-line tool that generates project starter templates with pre-configured file structures, boilerplate code, and Claude.md documentation.\n\nFeatures:\n- Interactive CLI prompts for project type selection\n- Support for Web App, PWA, CLI Tool, and Chrome Extension templates\n- Automatic project setup with boilerplate code\n- Git repository initialization\n- Template variable replacement\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
